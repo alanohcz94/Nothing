@@ -1,0 +1,70 @@
+
+body {
+	background-image: url("https://blogs.3ds.com/delmia/wp-content/uploads/sites/24/2013/03/white_spaces.jpg");
+}
+
+h1 {
+	color: darkslateblue;
+	font-style: italic;
+}
+
+h2 {
+	color: black;
+	font-style: oblique;
+}
+
+h3 {
+	color: black;
+	font-style: oblique;
+}
+
+hr {
+	background-color: black;
+	border-style: none;
+	height: 1px;
+	border-style: solid;
+}
+
+/* CLASS Selectors to change that particular tag with that class
+
+.className {
+	propoty : value
+}
+
+multiple tags can share the same class (Best coding practice is to put only related ones together)
+A tag can have multiple classes example:
+<img class = "meat circular" src = "URL">
+the space inbetween meat and circular represents a divided of classes
+now there is 2 class in a tag meat and ciruclar
+
+.meat {
+	background-color:  red;
+}
+
+.circular {
+	border-radius: 100%;
+}
+
+*/
+
+/* ID Selectors to change that particular tag with that id
+
+#idName {
+	propoty : value
+}
+
+all tag with id MUST be unique
+
+*/
+
+/*
+:active (keywords that have ':' are pesudo classes)
+because html elements can have different states example: ;
+hovering the mouse over a image can cause the state of that html element to change it's background color
+Code example:
+
+img:hover {
+	background-color: orange;
+}
+
+*/
